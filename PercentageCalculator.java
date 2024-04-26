@@ -48,6 +48,7 @@ public class PercentageCalculator {
             }
         } catch (NumberFormatException e) {
             System.out.println("Error: Input is not a valid integer.");
+            scanner.close();
         }
     }
 }
