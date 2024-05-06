@@ -8,7 +8,7 @@ public class WriteToFile {
         FileWriter fr=new FileWriter("anubhav.txt");
         fr.write("Jai hind.Jai Bharat");
         fr.close();
-        System.out.println("Writting in file Succes...");
+        System.out.println("Writting in file...");
     }catch(IOException e){
             System.out.println("Error found.");
             e.printStackTrace();
