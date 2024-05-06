@@ -5,9 +5,9 @@ import java.io.IOException;
 public class WriteToFile {
     public static void main(String[] args){
         try{
-        FileWriter fr=new FileWriter("anubhav.txt");
-        fr.write("Jai hind.Jai Bharat");
-        fr.close();
+        FileWriter fw=new FileWriter("anubhav.txt");
+        fw.write("Jai hind.Jai Bharat");
+        fw.close();
         System.out.println("Writting in file...");
     }catch(IOException e){
             System.out.println("Error found.");
