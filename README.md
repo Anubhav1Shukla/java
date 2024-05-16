@@ -12,7 +12,7 @@ Fibonacci.java: Generates Fibonacci series up to a specified number of terms.
 How to Use:
 Clone or download this repository to your local machine.
 Compile the Java programs using a Java compiler such as javac.
-php
+
 Copy code
 javac <filename>.java
 Run the compiled Java program using the Java Virtual Machine (JVM).
