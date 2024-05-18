@@ -8,7 +8,7 @@ public class ALExample {
         l.add("Hello, Python!");
         l.add("Hello, C++!");
         l.add("Hello, C#!");
-        l.add("Hello, JavaScript!");
+    
         System.out.println("List of strings: "+l);
         l.remove(2);
         System.out.println("List of strings after removing the third element: "+l);
