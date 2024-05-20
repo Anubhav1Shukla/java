@@ -8,7 +8,7 @@ public class AgeValidator {
             try{
                 int age=Integer.parseInt(input);
                 if(age<0){
-                    System.out.println("Error Invalid input");
+                    System.out.println("Error: Invalid input");
                 } else{
                     System.out.println("Your age is: "+age);
                 }
