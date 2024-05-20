@@ -6,7 +6,7 @@ class A {
 
 class B extends A {
     void showB() {
-        System.out.println("In class B.");
+        System.out.println("In the class B.");
     }
 }
 
