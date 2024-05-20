@@ -10,7 +10,7 @@ public class AgeValidator {
                 if(age<0){
                     System.out.println("Error: Invalid input");
                 } else{
-                    System.out.println("Your age is: "+age);
+                    System.out.println("Your age is:"+age);
                 }
             } catch(ArithmeticException e){
                 System.out.println("Error: Invalid age input");
