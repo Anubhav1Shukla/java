@@ -1,6 +1,6 @@
 class A {
     void showA() {
-        System.out.println("In class A.");
+        System.out.println("In the class A.");
     }
 }
 
