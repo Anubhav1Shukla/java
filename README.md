@@ -9,7 +9,7 @@ Factorial.java: Calculates the factorial of a given number.
 Palindrome.java: Checks if a given string is a palindrome or not.
 Fibonacci.java: Generates Fibonacci series up to a specified number of terms.
 (Add more programs as needed)
-How to Use:
+How to Use-
 Clone or download this repository to your local machine.
 Compile the Java programs using a Java compiler such as javac.
 

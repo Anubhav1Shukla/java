@@ -1,18 +1,18 @@
 class A {
     void showA() {
-        System.out.println("In class A.");
+        System.out.println("In the class A.");
     }
 }
 
 class B extends A {
     void showB() {
-        System.out.println("In class B.");
+        System.out.println("In the class B.");
     }
 }
 
 class C extends B {
     void showC() {
-        System.out.println("In class C.");
+        System.out.println("In the class C.");
     }
 
     public static void main(String[] args) {
