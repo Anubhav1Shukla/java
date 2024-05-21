@@ -10,7 +10,7 @@ public class CountCharacter
                 count++;    
         }    
             
-        //Displays the total number of characters present 
+    
         System.out.println("Total number of characters in a string: " + count);    
     }    
 }     
