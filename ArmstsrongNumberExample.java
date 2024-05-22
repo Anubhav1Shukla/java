@@ -6,7 +6,7 @@ public class ArmstsrongNumberExample
 static boolean isArmstrong(int n)   
 {   
 int temp, digits=0, last=0, sum=0;   
-//assigning n into a temp variable  
+
 temp=n;   
 //loop execute until the condition becomes false  
 while(temp>0)    
