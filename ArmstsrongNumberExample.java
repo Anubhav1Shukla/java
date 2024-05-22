@@ -17,32 +17,30 @@ temp = n;
 while(temp>0)   
 {   
 
-last = temp % 10;   
-//calculates the power of a number up to digit times and add the resultant to the sum variable  
+last = temp % 10;    
 sum +=  (Math.pow(last, digits));   
-//removes the last digit   
+ 
 temp = temp/10;   
 }  
-//compares the sum with n  
-if(n==sum)   
-//returns if sum and n are equal  
+
+if(n==sum)    
 return true;      
-//returns false if sum and n are not equal  
+
 else return false;   
 }   
-//driver code  
+  
 public static void main(String args[])     
 {     
 int num;   
 Scanner sc= new Scanner(System.in);  
 System.out.print("Enter the limit: ");  
-//reads the limit from the user  
+
 num=sc.nextInt();  
 System.out.println("Armstrong Number up to "+ num + " are: ");  
 for(int i=0; i<=num; i++)  
-//function calling  
+
 if(isArmstrong(i))  
-//prints the armstrong numbers  
+  
 System.out.print(i+ ", ");  
 }   
 }  
