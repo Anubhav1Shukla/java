@@ -1,5 +1,7 @@
 import java.util.HashMap;
 
+
+//maximum sub aaray sum in MS
 public class MaxSubarraySumEqualsK {
     public static int maxSubArrayLen(int[] nums, int k) {
         HashMap<Integer, Integer> prefixSumMap = new HashMap<>();
@@ -30,3 +32,5 @@ public class MaxSubarraySumEqualsK {
         System.out.println(maxSubArrayLen(nums, k));
     }
 }
+
+
