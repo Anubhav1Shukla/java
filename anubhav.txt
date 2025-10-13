@@ -1,1 +1,2 @@
 Java is a oop language
+A String variable contains a collection of characters surrounded by double quotes:
